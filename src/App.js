@@ -12,6 +12,7 @@ function App() {
       <Router>
         <Home path="/home" />
         <Number path="/:id" />
+        {/* colons are needed to show they are a variable */}
         <Multi path="/:word/:textColor/:backgroundColor" />
         
 
